@@ -1,0 +1,57 @@
+>>> print(len(MNT['data'][0]))
+ 2294 
+>>> print(len(MNT['data']))
+1236 
+>>> print(type(MNT['data'][0]))
+<class 'numpy.ndarray'>
+>>> print(type(MNT['data'][0][0]))
+<class 'numpy.float64'>
+
+
+>>> print(MNT['xllcorner'])
+931806.462689672
+>>> print(MNT['yllcorner'])
+6423387.14077021
+
+>>> print(MNT['dy'])
+5.000905510382  (environ pareil pour x)
+
+>>> print(MNT['ncols'])
+2294
+>>> print(MNT['nrows'])
+1236
+
+
+
+# Ancien code test à supprimer à la fin
+
+#X,Y = 1000,600
+#Dx,Dy = 200,200
+#NewMNT = SousPartieMNT(MNT,X,Y,Dx,Dy)
+
+#Affiche_valeur_des_voisins(x,y)
+
+#affiche(MNT)
+#affiche(NewMNT)
+
+#print(NewMNT['data'])
+#print(NewMNT['data'][4][3])
+
+#print(voisin(NewMNT,25,54))
+#print(matrice_ecoulement(NewMNT))
+
+#print(voisin(NewMNT,26,54))
+
+#Me = matrice_ecoulement(NewMNT)
+#print(Me)
+#print(dictionnaire_voisins(NewMNT))
+
+#plt.matshow(Me)
+
+#Lx,Ly = determination_talwegs(Me,0.09)
+#Lx2,Ly2 = determination_talwegs(NewMNT,0.5)
+
+#affiche(NewMNT)
+#plt.scatter(Lx,Ly,color = 'cyan',s=5,marker='*')
+#plt.scatter(Lx2,Ly2,color = 'r')
+#plt.show()
